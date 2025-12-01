@@ -16,7 +16,7 @@ const Company = () => {
       </p>
           <Marquee pauseOnClick={true}
           speed={30}>
-      <div className="mt-15 flex justify-center items-center gap-15">
+      <div className="mt-15 flex justify-center items-center gap-5 sm:gap-8 md:gap-10 lg:gap-15">
     
           <img src={img} alt="" />
           <img src={img2} alt="" />
@@ -27,6 +27,10 @@ const Company = () => {
         
       </div>
       </Marquee>
+        <div className=" mt-15 w-11/12 mx-auto">
+             <span className=" block border-b-2 border-dotted  border-[#03373D] "></span>
+        </div>
+     
     </div>
   );
 };
