@@ -1,11 +1,12 @@
 import React from 'react';
 
-const HomePage = () => {
+const Pricing = () => {
     return (
         <div>
-            Home
+            Pricing
+Pricing
         </div>
     );
 };
 
-export default HomePage;
+export default Pricing;
