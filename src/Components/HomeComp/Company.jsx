@@ -14,7 +14,8 @@ const Company = () => {
       <p className="text-center font-bold text-2xl text-[#03373D]">
         We've helped thousands of sales teams
       </p>
-          <Marquee pauseOnClick={true}>
+          <Marquee pauseOnClick={true}
+          speed={30}>
       <div className="mt-15 flex justify-center items-center gap-15">
     
           <img src={img} alt="" />
