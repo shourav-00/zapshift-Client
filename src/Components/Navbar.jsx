@@ -9,39 +9,40 @@ const Navbar = () => {
   return (
     <nav className="py-[14px] px-[32px] m-3 md:m-5 bg-[#ffffff] rounded-2xl h-[86px] ">
       <div className="flex justify-between items-center gap-5 lg:gap-5">
-        <Logo />
+        <NavLink to='/'> <Logo /></NavLink>
+       
         <div className="text-[#606060] hidden lg:flex justify-center items-center  lg:gap-[12px] mt-[5px]">
           <NavLink to='services'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 hover:bg-gray-300  px-4 py-2 rounded-2xl'}
           >Services</NavLink>
           <NavLink to='coverage'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] hover:bg-gray-300 transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 hover:bg-gray-300 rounded-2xl'}
           >Coverage</NavLink>
             <NavLink to='aboutUs'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl whitespace-nowrap' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 hover:bg-gray-300 py-2 rounded-2xl whitespace-nowrap'}
           >About Us</NavLink>
            <NavLink to='pricing'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66]  px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-2xl'}
           >Pricing</NavLink>
 
           <NavLink to='blog'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200  hover:bg-gray-300 px-4 py-2 rounded-2xl'}
           >Blog</NavLink>
 
           <NavLink to='contact'
             className={({isActive})=>
 
-            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 rounded-2xl'}
+            isActive ? 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-[#CAEB66] px-4 py-2 rounded-2xl' : 'text-black font-semibold text-sm scale-105 mt-[2px] transition-all ease-in-out duration-300 bg-gray-200 px-4 py-2 hover:bg-gray-300 rounded-2xl'}
           >Contact</NavLink>
          
          

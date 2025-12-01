@@ -7,13 +7,15 @@ const RootLayout = () => {
   return (
     <div className=" flex flex-col min-h-screen bg-[#EAECED]">
       <Navbar />
-      <main className="max-w-7xl mx-auto not-odd:flex-1 ">
+      <main className="max-w-7xl mx-auto flex-1 ">
         <div className="">
           <Outlet />
         </div>
       </main>
-
-      <Footer />
+      <div className="">
+           <Footer />
+      </div>
+     
     </div>
   );
 };
